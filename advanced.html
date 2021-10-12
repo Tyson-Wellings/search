@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="Google_Logo.png">
+        <div class="header-link-container">
+            <a class="header-links" href="index.html">
+                Home
+            </a>
+        </div>
+    </header>
+    <main>
+        <div id="label-spacing">
+            <label class="Big-red-label">Advanced Search</label>
+        </div>
+       
+        <div id="advanced-search-form-container">
+            <form class="advanced-search-form" action="https://google.com/search" name=f>
+
+                <div class="as-label-input-containers">
+                    <label for="AS-all-words">all these words</label> 
+                    <input type="text" id="AS-all-words" name="as_q">
+                </div>
+
+                <div class="as-label-input-containers">
+                    <label for="AS=AS-exact-words">this exact word or phrase</label>
+                    <input type="text" id="AS-exact-words" name="as_epq">
+                </div>
+
+                <div class="as-label-input-containers">
+                    <label for="AS-any-words">any of these words</label>
+                    <input type="text" id="AS-any-words" name="as_oq">
+                </div>
+
+                <div class="as-label-input-containers">
+                    <label for="AS-none-words">none of these words</label>
+                    <input type="text" id="AS-none-words" name="as_eq">
+                </div>
+                <div id="AS-submit-button-container">
+                    <input id="AS-submit-button" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+        
+    </main>
+</body>
+
+</html>
+
